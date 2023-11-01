@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+p:hover,h1:hover,h2:hover,a:hover,td:hover,th:hover,li:hover,label:hover,input:hover,button:hover{
+      color:salmon;
+	  font-family:cursive;
+	  }
+	  
+
+.signin
+{
+  position: absolute;
+  width: 400px;
+  background: transparent;  
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  border-radius: 10px;
+  backdrop-filter:blur(10px);
+  
+ 
+}
+	 </style>
+
+ <title>Form</title>
+ </head >
+ 
+ <body style="background-image:url('super.jpg');background-size:cover;">
+ <div style="margin-left:500px;margin-top:200px;;margin-right:650px">
+   <div style="color:white;">
+    <div class="signin" style="border:2px solid Azure;">
+<form>
+    <label for="username">Username:</label><br><br>
+    <input type="text" id="username" name="username"><br><br>
+    <label for="pwd">Password:</label><br><br>
+    <input type="password" id="pwd" name="pwd"><br><br>
+    <input type="submit" onclick="alert('Do u want to sign in?')" value="sign in" style="color:blue;background: none;border-radius: 5px;">
+	<button type="button" onclick="alert('Do u want to login ?')" style="color:blue;background: none;border-radius: 5px;">login</button><br>
+		
+</form>
+</div>
+</div><br>
+	</div>
+</body>
+</html>
